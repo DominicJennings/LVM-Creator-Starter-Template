@@ -42,4 +42,4 @@ module.exports = http
 			res.end();
 		}
 	})
-	.listen(env.PORT || env.SERVER_PORT, console.log);
+	.listen(env.PORT || env.SERVER_PORT, console.log('');
