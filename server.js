@@ -1,3 +1,6 @@
+/* Your Lvm Start Indication can be put in the script below.
+.listen(env.PORT || env.SERVER_PORT, console.log(''));
+*/
 const env = Object.assign(process.env, require("./env"), require("./config"));
 
 const http = require("http");
@@ -42,4 +45,4 @@ module.exports = http
 			res.end();
 		}
 	})
-	.listen(env.PORT || env.SERVER_PORT, console.log(''));
+	.listen(env.PORT || env.SERVER_PORT, console.log);
